@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Varela+Round&display=swap');
+
+:root {
+    --color: rgb(75, 9, 180)
+}
+
+* {
+    padding: 0;
+    margin : 0;
+}
+
+body {
+    font-family     : 'Varela Round', sans-serif;
+    background-color: rgb(75, 9, 180);
+}
+
+
+.main-logo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo {
+    display      : inline;
+    width        : 100px;
+    border-radius: 50%;
+    border       : 3px solid rgb(255, 255, 255);
+}
+
+.top-headding {
+    margin-top    : 16px;
+    font-size     : 35px;
+    text-transform: uppercase;
+    color         : white;
+}
+
+.headding-desc {
+    font-size: 20px;
+    color    : white;
+}
+
+.body-content {
+    position        : relative;
+    margin-top      : 50px;
+    background-color: rgb(255, 255, 255);
+    width           : 88%;
+    height          : 1100px;
+    text-align      : center;
+    margin-left     : 6%;
+    display         : inline-block;
+    border-radius   : 10px;
+}
+
+.navbar {
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+
+.navbar ul li {
+    display   : inline;
+    margin-top: 20px;
+    padding   : 10px 100px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size      : 18px;
+    letter-spacing : 2px;
+    color          : black;
+
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar ul li .login-btn {
+    padding         : 3px 2px;
+    border          : 2px solid blue;
+    background-color: blue;
+    color           : white;
+    border-radius   : 8%;
+}
+
+.navbar ul li .login-btn:hover {
+    text-decoration: none;
+    opacity        : .8;
+}
+
+
+.body-desc {
+
+    margin  : 40px 50px;
+    padding : 10px 12px;
+    position: relative;
+    width   : 550px;
+    height  : 400px;
+
+}
+
+.body-desc h1 {
+    margin-top: 50px;
+    font-size : 30px;
+    color     : var(--color);
+}
+
+.body-desc p {
+    margin-top: 16px;
+    color     : black;
+    font-size : 18px;
+}
+
+.body-image {
+    margin  : 40px 50px;
+    padding : 10px 12px;
+    position: relative;
+    width   : 350px;
+    height  : 400px;
+    float   : right;
+    top     : -450px;
+
+}
+
+.desc-image-1 {
+    width        : 300px;
+    border       : 3px solid var(--color);
+    border-radius: 50%;
+}
+
+.body-desc hr {
+    color        : rgb(2, 66, 66);
+    border       : 2px solid var(--color);
+    border-radius: 40px;
+    width        : 30%;
+    margin       : 0 auto;
+
+}
+
+.contact-us {
+    width      : 400px;
+    height     : 400px;
+    margin-left: 70px;
+    border     : 4px solid var(--color);
+
+    text-align   : center;
+    border-radius: 20px;
+
+}
+
+.contact-us h1 {
+    margin   : 50px 0px 20px 0px;
+    font-size: 28px;
+}
+
+.contact-us hr {
+    margin       : 12px 112px;
+    border       : 1px solid blue;
+    border-radius: 50px;
+}
+
+.contact-us input,
+.contact-us button,
+.contact-us textarea {
+    padding      : 5px 10px;
+    margin       : 5px 50px;
+    border       : 3px solid var(--color);
+    border-radius: 12px;
+    background   : transparent;
+}
+
+.contact-us textarea {
+    width: 200px;
+}
+
+.contact-us input::placeholder,
+.contact-us button::placeholder,
+.contact-us textarea::placeholder {
+    font-size     : 15px;
+    opacity       : 0.8;
+    letter-spacing: 2px;
+}
+
+.contact-us button {
+    background-color: var(--color);
+    color           : white;
+    border          : 2px solid rgba(100, 99, 99, 0.534);
+    border-radius   : 10px;
+    padding         : 5px 50px;
+}
+
+.contact-us button:hover {
+    opacity: .8;
+}
+
+.project {
+    width        : 500px;
+    height       : 385px;
+    padding      : 10px;
+    border       : 4px solid red;
+    float        : right;
+    position     : relative;
+    right        : -350px;
+    top          : -410px;
+    border-radius: 20px;
+}
+
+.project h1 {
+    margin: 15px 0px;
+}
+
+.project hr {
+    width        : 130px;
+    margin       : 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.project button {
+    padding         : 7px 50px;
+    margin          : 10px 2px;
+    border          : 4px solid red;
+    border-radius   : 10px;
+    background-color: red;
+    color           : white;
+}
+
+.project button:hover {
+    opacity: 0.8;
+}
+
+.social-medias {
+    position: relative;
+    display : inline;
+    left    : 90px;
+    width   : 100px;
+    height  : 200px;
+   
+}
+
+.social-medias ul {
+    margin-top: 30px;
+}
+
+.social-medias ul li {
+    list-style-type: none;
+}
+
+.social-medias ul li a {
+    color          : white;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+
+}
+
+.copyright {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
